@@ -777,8 +777,7 @@ function updateUI(myRoom, refresh){
 	$(".kkutu-menu button").hide();
 	for(i in $stage.box) $stage.box[i].hide();
 	$stage.box.me.show();
-	$stage.box.chat.show().width(790).height(190);
-	$stage.chat.height(120);
+	$stage.box.chat.show();
 	
 	if(only == "for-lobby"){
 		$data._ar_first = true;
@@ -813,7 +812,7 @@ function updateUI(myRoom, refresh){
 			}
 		}
 		$data._shop = false;
-		$stage.box.room.show().height(360);
+		$stage.box.room.show();
 		if(only == "for-master") if($stage.dialog.inviteList.is(':visible')) updateUserList();
 		updateRoom(false);
 		updateMe();
@@ -826,8 +825,7 @@ function updateUI(myRoom, refresh){
 		$data._ar_first = true;
 		$stage.box.me.hide();
 		$stage.box.game.show();
-		$(".ChatBox").width(1000).height(140);
-		$stage.chat.height(70);
+		$(".ChatBox").show();
 		updateRoom(true);
 	}
 	$data._only = only;
