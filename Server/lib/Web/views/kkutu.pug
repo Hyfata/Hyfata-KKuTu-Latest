@@ -438,24 +438,28 @@ block Middle
 		div.game-input
 			input#game-input(placeholder=L('yourTurn')+' '+L('inputChat'), readonly)
 	+Product('Me')
-		div.moremi.my-image
-		div.my-stat
-			div.jt-image.my-stat-level
-			div.my-stat-name.ellipse
-			div.my-stat-record
-			div.my-stat-ping
-			div
-				+GraphBar('my-okg')
-				div.bar-text.my-okg-text
-				+Expl(true)
-					div(style='color: #CCCCCC;')!= L('okgExpl')
-		div.my-level
-		+GraphBar('my-gauge')
-		div.bar-text.my-gauge-text
+		div.my-header
+			div.moremi.my-image
+			div.my-stat
+				div.my-stat-top
+					div.jt-image.my-stat-level
+					div.my-stat-name.ellipse
+				div.my-stat-record
+				div.my-stat-ping
+				div.my-okg-container
+					+GraphBar('my-okg')
+					div.bar-text.my-okg-text
+					+Expl(true)
+						div(style='color: #CCCCCC;')!= L('okgExpl')
+		div.my-level-info
+			div.my-level
+			+GraphBar('my-gauge')
+			div.bar-text.my-gauge-text
 	+Product('Chat')
 		div#Chat
-		input#Talk(maxlength=200)
-		button#ChatBtn= L('send')
+		div.chat-input-group
+			input#Talk(maxlength=200)
+			button#ChatBtn= L('send')
 	+Product('AD')
 
 block Bottom

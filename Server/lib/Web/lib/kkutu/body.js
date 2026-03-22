@@ -901,7 +901,7 @@ function updateMe(){
 	$(".my-okg .graph-bar").width(($data._playTime % 600000) / 6000 + "%");
 	$(".my-okg-text").html(prettyTime($data._playTime));
 	$(".my-level").html(L['LEVEL'] + " " + lv);
-	$(".my-gauge .graph-bar").width((my.data.score-prev)/(goal-prev)*190);
+	$(".my-gauge .graph-bar").width((my.data.score-prev)/(goal-prev)*100 + "%");
 	$(".my-gauge-text").html(commify(my.data.score) + " / " + commify(goal));
 }
 function prettyTime(time){
@@ -1014,13 +1014,15 @@ function roomListBar(o){
 	$R = $("<div>").attr('id', "room-"+o.id).addClass("rooms-item")
 	.append($ch = $("<div>").addClass("rooms-channel channel-" + o.channel).on('click', function(e){ requestRoomInfo(o.id); }))
 	.append($("<div>").addClass("rooms-number").html(o.id))
-	.append($("<div>").addClass("rooms-title ellipse").text(badWords(o.title)))
-	.append($("<div>").addClass("rooms-limit").html(o.players.length + " / " + o.limit))
-	.append($("<div>").width(270)
+	.append($("<div>").addClass("rooms-content")
+		.append($("<div>").addClass("rooms-title ellipse").text(badWords(o.title)))
 		.append($("<div>").addClass("rooms-mode").html(opts.join(" / ").toString()))
-		.append($("<div>").addClass("rooms-round").html(L['rounds'] + " " + o.round))
-		.append($("<div>").addClass("rooms-time").html(o.time + L['SECOND']))
+		.append($("<div>").addClass("rooms-info")
+			.append($("<div>").addClass("rooms-round").html(L['rounds'] + " " + o.round))
+			.append($("<div>").addClass("rooms-time").html(o.time + L['SECOND']))
+		)
 	)
+	.append($("<div>").addClass("rooms-limit").html(o.players.length + " / " + o.limit))
 	.append($("<div>").addClass("rooms-lock").html(o.password ? "<i class='fa fa-lock'></i>" : "<i class='fa fa-unlock'></i>"))
 	.on('click', function(e){
 		if(e.target == $ch.get(0)) return;
@@ -1034,35 +1036,34 @@ function roomListBar(o){
 function normalGameUserBar(o){
 	var $m, $n, $bar;
 	var $R = $("<div>").attr('id', "game-user-"+o.id).addClass("game-user")
-		.append($m = $("<div>").addClass("moremi game-user-image"))
-		.append($("<div>").addClass("game-user-title")
-			.append(getLevelImage(o.data.score).addClass("game-user-level"))
-			.append($bar = $("<div>").addClass("game-user-name ellipse").html(o.profile.title || o.profile.name))
-			.append($("<div>").addClass("expl").html(L['LEVEL'] + " " + getLevel(o.data.score)))
-		)
-		.append($n = $("<div>").addClass("game-user-score"));
+			.append($m = $("<div>").addClass("moremi game-user-image"))
+			.append($("<div>").addClass("game-user-info")
+					.append(getLevelImage(o.data.score).addClass("game-user-level"))
+					.append($bar = $("<div>").addClass("game-user-name ellipse").html(o.profile.title || o.profile.name))
+					.append($("<div>").addClass("expl").html(L['LEVEL'] + " " + getLevel(o.data.score)))
+			)
+			.append($n = $("<div>").addClass("game-user-score"));
 	renderMoremi($m, o.equip);
 	global.expl($R);
 	addonNickname($bar, o);
 	if(o.game.team) $n.addClass("team-" + o.game.team);
-	
+
 	return $R;
 }
 function miniGameUserBar(o){
 	var $n, $bar;
 	var $R = $("<div>").attr('id', "game-user-"+o.id).addClass("game-user")
-		.append($("<div>").addClass("game-user-title")
-			.append(getLevelImage(o.data.score).addClass("game-user-level"))
-			.append($bar = $("<div>").addClass("game-user-name ellipse").html(o.profile.title || o.profile.name))
-		)
-		.append($n = $("<div>").addClass("game-user-score"));
+			.append($("<div>").addClass("game-user-info")
+					.append(getLevelImage(o.data.score).addClass("game-user-level"))
+					.append($bar = $("<div>").addClass("game-user-name ellipse").html(o.profile.title || o.profile.name))
+			)
+			.append($n = $("<div>").addClass("game-user-score"));
 	if(o.id == $data.id) $bar.addClass("game-user-my-name");
 	addonNickname($bar, o);
 	if(o.game.team) $n.addClass("team-" + o.game.team);
-	
+
 	return $R;
-}
-function getAIProfile(level){
+}function getAIProfile(level){
 	return {
 		title: L['aiLevel' + level] + ' ' + L['robot'],
 		image: "/img/kkutu/robot.png"
@@ -1114,12 +1115,14 @@ function updateRoom(gaming){
 				$data.robots[o.id] = o;
 			}
 			$r.append($("<div>").attr('id', "room-user-"+o.id).addClass("room-user")
-				.append($m = $("<div>").addClass("moremi room-user-image"))
-				.append($("<div>").addClass("room-user-stat")
-					.append($y = $("<div>").addClass("room-user-ready"))
-					.append($z = $("<div>").addClass("room-user-team team-" + o.game.team).html($("#team-" + o.game.team).html()))
+				.append($("<div>").addClass("room-user-top")
+					.append($m = $("<div>").addClass("moremi room-user-image"))
+					.append($("<div>").addClass("room-user-stat")
+						.append($y = $("<div>").addClass("room-user-ready"))
+						.append($z = $("<div>").addClass("room-user-team team-" + o.game.team).html($("#team-" + o.game.team).html()))
+					)
 				)
-				.append($("<div>").addClass("room-user-title")
+				.append($("<div>").addClass("room-user-bottom")
 					.append(getLevelImage(o.data.score).addClass("room-user-level"))
 					.append($bar = $("<div>").addClass("room-user-name").html(o.profile.title || o.profile.name))
 				).on('click', function(e){
@@ -2166,7 +2169,7 @@ function kickVoting(target){
 	showDialog($stage.dialog.kickVote);
 }
 function kickVoteTick(){
-	$(".kick-vote-time .graph-bar").width($data.kickTime / $data._kickTime * 300);
+	$(".kick-vote-time .graph-bar").width($data.kickTime / $data._kickTime * 100 + "%");
 	if(--$data.kickTime > 0) $data._kickTimer = addTimeout(kickVoteTick, 1000);
 	else $stage.dialog.kickVoteY.trigger('click');
 }
