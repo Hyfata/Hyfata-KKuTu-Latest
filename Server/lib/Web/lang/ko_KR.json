@@ -1,6 +1,6 @@
 {
 	"GLOBAL": {
-		"GPL": "<div style='color: #666;'><p style='font-weight: bold;'>Hyfata Official</p>문의 :<a href='mailto:najoan@hyfata.kr' style='font-weight: bold;'>najoan@hyfata.kr</a>│ 사전 정보 제공 :<a href='http://wordnet.princeton.edu' target='_blank' style='font-weight: bold;'>WordNet</a>│ 소스코드 :<a target='_blank' href='https://github.com/najoan125/Hyfata-KKuTu-Latest' style='font-weight: bold;'>Github</a><br><br>Copyright (C) 2019-2024 Hyfata. 모든 권리 보유</div>",
+		"GPL": "<div style='color: var(--text-muted);'><p style='font-weight: bold;'>Hyfata Official</p>문의 :<a href='mailto:najoan@hyfata.kr' style='font-weight: bold; color: var(--primary);'>najoan@hyfata.kr</a>│ 사전 정보 제공 :<a href='http://wordnet.princeton.edu' target='_blank' style='font-weight: bold; color: var(--primary);'>WordNet</a>│ 소스코드 :<a target='_blank' href='https://github.com/najoan125/Hyfata-KKuTu-Latest' style='font-weight: bold; color: var(--primary);'>Github</a><br><br>Copyright (C) 2019-2024 Hyfata. 모든 권리 보유</div>",
 
 		"optUnknown": "언노운워드",
 		"explUnknown": "사전에 없는 단어만 입력할 수 있습니다.",

@@ -17,7 +17,8 @@
  */
 
 body{
-	color: #EEEEEE;
+	color: var(--text-main);
+	background-color: var(--bg-main);
 	padding: 0px;
 	margin: 0px;
 	min-width: 360px;
@@ -30,27 +31,30 @@ a{
 input, select, textarea{
 	display: block;
 	font-family: inherit;
-	padding: 5px;
-	border: 1px solid #AAAAAA;
-	border-radius: 10px;
+	padding: 8px 12px;
+	border: 1px solid var(--border-color);
+	border-radius: var(--radius);
+	background-color: var(--bg-surface-light);
+	color: var(--text-main);
 	resize: none;
 }
 button{
 	display: block;
 	box-sizing: inherit;
 	font-family: inherit;
-	padding: 5px;
-	border: 1px solid #AAAAAA;
-	border-radius: 10px;
-	background-color: #EEEEEE;
+	padding: 8px 16px;
+	border: 1px solid var(--border-color);
+	border-radius: var(--radius);
+	background-color: var(--bg-surface-light);
+	color: var(--text-main);
 	transition: all 200ms ease;
 }
 button:active{
-	color: #EEEEEE;
-	background-color: #444444;
+	background-color: var(--primary);
 }
 input:focus, textarea:focus, button:focus{
 	outline: none;
+	border-color: var(--primary);
 }
 span{
 	display: none;
@@ -58,23 +62,24 @@ span{
 .Menu{ min-width: 360px; }
 .Menu .menu-btn{
 	float: left;
-	padding: 7px 5px 5px 5px;
+	padding: 7px 12px;
 	border: none;
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-	width: 100px;
-	height: 18px;
+	border-bottom-left-radius: var(--radius);
+	border-bottom-right-radius: var(--radius);
+	width: auto;
+	min-width: 80px;
+	height: 30px;
 	font-size: 15px;
 	text-align: center;
-	color: #47330D;
-	background-image: url('/img/topbg.png');
-	background-color: #DEAF56;
+	color: var(--text-main);
+	background-color: var(--bg-surface);
 	transition: all 200ms ease;
 }
-.Menu .menu-btn:hover{ padding-top: 12px; box-shadow: 0px 2px 2px #141414; background-image: none; background-color: #EFC067; }
-.Menu .menu-btn:active{ height: 18px; color: #FFFFFF; background-color: #CD9E45; }
+.Menu .menu-btn:hover{ padding-top: 12px; box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1); background-color: var(--primary); }
+.Menu .menu-btn:active{ background-color: var(--primary-hover); }
+
 	#menu-item-DB:hover{ height: auto; }
 	#menu-item-GAMES:hover{ height: auto; }
 	.Menu .menu-btn .menu-sub-separator{
@@ -250,48 +255,50 @@ span{
 	float: left;
 	top: 56px;
 	min-width: 60px;
-	padding: 5px;
-	border-radius: 10px;
+	padding: 8px;
+	border-radius: var(--radius);
 	margin: 5px;
-	color: #EEEEEE;
+	color: var(--text-main);
 	font-size: 13px;
-	background-color: #232323;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: var(--bg-surface);
+	border: 1px solid var(--border-color);
 	z-index: 1;
 }
-.auto-item{ margin: 2px 0px; cursor: pointer; }
-.auto-item:hover{ background-color: #333333; }
-.auto-selected{ color: #EEEE44; background-color: #3B3B3B; }
+.auto-item{ margin: 4px 0px; padding: 4px 8px; cursor: pointer; border-radius: 4px; }
+.auto-item:hover{ background-color: var(--bg-surface-light); }
+.auto-selected{ color: var(--primary); background-color: var(--bg-surface-light); }
 
 #Top{
 	position: fixed;
 	width: 100%;
-	height: 30px;
-	box-shadow: 0px 2px 2px #111111;
-	background-image: url('/img/topbg.png');
-	z-index: 1;
+	height: 40px;
+	border-bottom: 1px solid var(--border-color);
+	background-color: var(--bg-main);
+	z-index: 5;
 }
 #Middle{
 	float: left;
-	margin-top: 50px;
+	margin-top: 60px;
 	width: 100%;
 }
 #Bottom{
 	float: left;
-	width: 1000px;
-	color: #444444;
+	width: 100%;
+	color: var(--text-muted);
 	font-size: 11px;
 	text-align: center;
+	padding: 20px 0;
 }
 .bottom-legal{
 	margin-top: 10px;
-	color: #CCCCCC;
+	color: var(--text-muted);
 }
-	.bottom-legal a{ padding: 0px 5px; }
+	.bottom-legal a{ padding: 0px 5px; color: var(--text-main); }
 .bottom-contact{
-	color: #777777;
+	color: var(--text-muted);
 	font-weight: bold;
 }
+
 
 /* 설명 */
 #ExplBox{
@@ -299,12 +306,13 @@ span{
 	position: fixed;
 	font-size: 12px;
 	min-width: 100px;
-	padding: 4px;
-	border: 1px solid #777777;
-	border-radius: 5px;
+	padding: 8px;
+	border: 1px solid var(--border-color);
+	border-radius: 4px;
 	pointer-events: none;
-	background-color: #222222;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: var(--bg-surface);
+	color: var(--text-main);
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 	z-index: 2;
 }
 #ExplBox expl{

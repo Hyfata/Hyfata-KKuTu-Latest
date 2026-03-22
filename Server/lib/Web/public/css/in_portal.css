@@ -19,79 +19,103 @@
 #holder{
 	width: 200px;
 	text-align: center;
-	text-shadow: 0px 0px 4px #333;
+	text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 	font-weight: bold;
+	color: var(--text-main);
 }
 #logo{
 	margin-top: -20px;
 }
 #kkutu-bulletin{
-	border: 0px;
-	margin-bottom: 5px;
+	border: none;
+	border-radius: var(--radius);
+	margin-bottom: 8px;
 }
 
 #menu-bar a{
 	display: block;
 	float: left;
-	padding: 10px 5px;
-	border-radius: 5px;
-	margin: 0px 3px;
-	width: 120px;
+	padding: 12px 16px;
+	border-radius: var(--radius);
+	margin: 4px;
+	width: 140px;
 	font-size: 15px;
 	text-align: center;
-	box-shadow: 0px 1px 1px #333;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s, background-color 0.2s;
+	color: #fff;
+}
+#menu-bar a:hover{
+	transform: translateY(-2px);
+	opacity: 0.9;
 }
 
 #game-start{
 	float: left;
 	width: 315px;
 	height: 70px;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: bold;
 	border: none;
-	border-bottom-left-radius: inherit;
-	border-bottom-right-radius: inherit;
+	background-color: var(--primary);
+	color: #fff;
+	transition: all 0.2s;
+	border-bottom-left-radius: var(--radius);
+	border-bottom-right-radius: var(--radius);
 }
-	#game-start:hover{ font-size: 24px; background-color: rgba(0, 0, 0, 0.5); }
+	#game-start:hover{ background-color: var(--primary-hover); transform: scale(1.02); }
+	#game-start:disabled{ background-color: var(--bg-surface-light); color: var(--text-muted); cursor: not-allowed; }
+
 .server-list-box{
 	float: right;
 	width: 320px;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: var(--bg-surface);
+	border: 1px solid var(--border-color);
+	border-radius: var(--radius);
+	overflow: hidden;
 }
 .server-list-title{
-	padding: 2px 0px;
+	padding: 8px 12px;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: var(--bg-surface-light);
+	border-bottom: 1px solid var(--border-color);
+	color: var(--text-main);
 }
 #server-refresh{
-	margin: 0px 5px;
+	margin-right: 12px;
 	cursor: pointer;
+	color: var(--primary);
 }
 .server{
 	float: left;
-	margin: 2px 0px;
-	width: 320px;
-	height: 16px;
-	font-size: 13px;
+	margin: 0;
+	padding: 8px 12px;
+	width: 100%;
+	height: auto;
+	font-size: 14px;
 	cursor: pointer;
+	border-bottom: 1px solid var(--border-color);
+	transition: background-color 0.2s;
 }
+	.server:last-child{ border-bottom: none; }
 	.server>div{ float: left; }
-	.server-status{ border-radius: 6px; margin: 2px; width: 12px; height: 12px; }
-		.ss-o{ background-color: #3E3; }
-		.ss-p{ background-color: #EE3; }
-		.ss-q{ background-color: #F55; }
-		.ss-x{ background-color: #777; }
-	.server-name{ width: 70px; }
-	.server-people{ width: 180px; height: 100%; }
-		.server-people>.graph-bar{ background-image: url(/img/blue_gauge.png); }
-		.server-people>label{ position: relative; display: block; top: -14px; width: 100%; text-align: center; font-size: 11px; }
-	.server-enter{ width: 50px; text-align: center; }
-	.server:hover{ background-color: rgba(255, 255, 255, 0.1); }
+	.server-status{ border-radius: 50%; margin: 4px 8px 0 0; width: 10px; height: 10px; }
+		.ss-o{ background-color: #10b981; }
+		.ss-p{ background-color: #f59e0b; }
+		.ss-q{ background-color: #ef4444; }
+		.ss-x{ background-color: #4b5563; }
+	.server-name{ width: 80px; font-weight: bold; color: var(--text-main); }
+	.server-people{ width: 160px; height: 16px; margin-top: 2px; background-color: var(--bg-main); border-radius: 8px; border: 1px solid var(--border-color); position: relative; }
+		.server-people>.graph-bar{ background-color: var(--primary); border-radius: 8px; }
+		.server-people>label{ position: absolute; display: block; top: 0; width: 100%; text-align: center; font-size: 10px; line-height: 16px; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
+	.server-enter{ width: 40px; text-align: right; color: var(--primary); font-size: 12px; font-weight: bold; }
+	.server:hover{ background-color: var(--bg-surface-light); }
 
 #Background{
-	animation: BGScroll 4s linear infinite;
+	animation: BGScroll 60s linear infinite;
+	filter: brightness(0.4);
 }
 @keyframes BGScroll{
 	from{ background-position: 0px 0px; }
-	to{ background-position: -200px -200px; }
+	to{ background-position: -1000px -1000px; }
 }
