@@ -1,1520 +1,597 @@
-This is an error log file of the game server.
-You may use like `tail -f KKUTU_ERROR.log` to watch this.
-:8506 [3/28/2024, 7:00:05 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:00:15 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:00:50 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:00 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:10 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:20 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:31 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:41 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:51 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:01 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:12 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:22 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:32 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:43 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:53 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:03 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:13 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:24 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:34 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:44 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:54 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:05 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:15 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:25 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:36 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:46 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:56 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:06 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:17 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:27 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:37 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:48 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:58 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:06:08 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:06:18 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:06:29 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:59:37 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:59:47 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:59:58 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:08 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:18 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:28 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:39 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:49 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:59 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:01:10 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:01:20 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:01:30 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:01:40 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:01:51 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:01 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:11 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:21 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:32 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:42 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:52 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:03 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:13 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:23 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:35 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:45 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:55 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:06 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:16 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:26 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:37 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:47 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:57 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:07 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:18 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:28 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:38 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:48 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:59 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:06:09 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:06:19 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:06:30 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:06:40 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
-			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
-			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
-    at internalCompileFunction (node:internal/vm:77:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
-    at Module._compile (node:internal/modules/cjs/loader:1340:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Module.require (node:internal/modules/cjs/loader:1235:19)
-    at require (node:internal/modules/helpers:176:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [5/17/2024, 9:05:36 AM] ERROR: error: terminating connection due to administrator command
+:8506 [2/11/2025, 3:58:31 PM] ERROR: error: terminating connection due to administrator command
 error: terminating connection due to administrator command
-    at Parser.parseErrorMessage (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
-    at Parser.handlePacket (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
-    at Parser.parse (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
-    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
-    at Socket.emit (node:events:518:28)
-    at addChunk (node:internal/streams/readable:559:12)
-    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-    at Readable.push (node:internal/streams/readable:390:5)
-    at TCP.onStreamRead (node:internal/stream_base_commons:190:23):8506 [5/17/2024, 9:05:36 AM] ERROR: Error: Connection terminated unexpectedly
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [2/11/2025, 3:58:31 PM] ERROR: Error: Connection terminated unexpectedly
 Error: Connection terminated unexpectedly
-    at Connection.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:638:28)
+    at Connection.emit (node:events:524:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [2/15/2025, 6:21:14 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [2/15/2025, 6:21:14 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
     at Object.onceWrapper (node:events:632:28)
     at Connection.emit (node:events:518:28)
-    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
     at Socket.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1696:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21):8506 [8/12/2024, 10:34:04 AM] ERROR: error: terminating connection due to administrator command
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [2/28/2025, 6:14:32 AM] ERROR: error: terminating connection due to administrator command
 error: terminating connection due to administrator command
-    at Parser.parseErrorMessage (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
-    at Parser.handlePacket (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
-    at Parser.parse (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
-    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
-    at Socket.emit (node:events:519:28)
-    at addChunk (node:internal/streams/readable:559:12)
-    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-    at Readable.push (node:internal/streams/readable:390:5)
-    at TCP.onStreamRead (node:internal/stream_base_commons:191:23):8506 [8/12/2024, 10:34:04 AM] ERROR: Error: Connection terminated unexpectedly
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [2/28/2025, 6:14:32 AM] ERROR: Error: Connection terminated unexpectedly
 Error: Connection terminated unexpectedly
-    at Connection.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
-    at Object.onceWrapper (node:events:633:28)
-    at Connection.emit (node:events:519:28)
-    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
-    at Socket.emit (node:events:531:35)
-    at endReadableNT (node:internal/streams/readable:1696:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21):8506 [9/18/2024, 4:57:29 PM] ERROR: SyntaxError: missing ) after argument list
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:224
-	console.log(mgt._done[0].slice(-1);
-	                                 ^
-
-SyntaxError: missing ) after argument list
-    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
-    at Module._compile (node:internal/modules/cjs/loader:1321:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-    at Module.load (node:internal/modules/cjs/loader:1208:32)
-    at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Module.require (node:internal/modules/cjs/loader:1233:19)
-    at require (node:internal/modules/helpers:179:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8)
-    at PendingItem.callback (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Web/db.js:91:30):8506 [9/18/2024, 4:57:39 PM] ERROR: SyntaxError: missing ) after argument list
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:224
-	console.log(mgt._done[0].slice(-1);
-	                                 ^
-
-SyntaxError: missing ) after argument list
-    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
-    at Module._compile (node:internal/modules/cjs/loader:1321:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-    at Module.load (node:internal/modules/cjs/loader:1208:32)
-    at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Module.require (node:internal/modules/cjs/loader:1233:19)
-    at require (node:internal/modules/helpers:179:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8)
-    at PendingItem.callback (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Web/db.js:91:30):8506 [9/18/2024, 4:57:50 PM] ERROR: SyntaxError: missing ) after argument list
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:224
-	console.log(mgt._done[0].slice(-1);
-	                                 ^
-
-SyntaxError: missing ) after argument list
-    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
-    at Module._compile (node:internal/modules/cjs/loader:1321:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-    at Module.load (node:internal/modules/cjs/loader:1208:32)
-    at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Module.require (node:internal/modules/cjs/loader:1233:19)
-    at require (node:internal/modules/helpers:179:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8)
-    at PendingItem.callback (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Web/db.js:91:30):8506 [9/18/2024, 4:58:00 PM] ERROR: SyntaxError: missing ) after argument list
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:224
-	console.log(mgt._done[0].slice(-1);
-	                                 ^
-
-SyntaxError: missing ) after argument list
-    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
-    at Module._compile (node:internal/modules/cjs/loader:1321:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-    at Module.load (node:internal/modules/cjs/loader:1208:32)
-    at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Module.require (node:internal/modules/cjs/loader:1233:19)
-    at require (node:internal/modules/helpers:179:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8)
-    at PendingItem.callback (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Web/db.js:91:30):8506 [9/18/2024, 4:58:11 PM] ERROR: SyntaxError: missing ) after argument list
-/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:224
-	console.log(mgt._done[0].slice(-1);
-	                                 ^
-
-SyntaxError: missing ) after argument list
-    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
-    at Module._compile (node:internal/modules/cjs/loader:1321:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-    at Module.load (node:internal/modules/cjs/loader:1208:32)
-    at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Module.require (node:internal/modules/cjs/loader:1233:19)
-    at require (node:internal/modules/helpers:179:18)
-    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8)
-    at PendingItem.callback (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Web/db.js:91:30):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at proceedWhenReady (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:403:3
-    at exports.Tail.go (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/lizard.js:43:16)
-    at aft (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:553:8)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:560:9
-    at callback (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/collection.js:316:13)
-    at Query.preCB (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/collection.js:298:6)
-    at Query.handleReadyForQuery (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/query.js:138:12)
-    at Client._handleReadyForQuery (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:290:19)
-    at Connection.emit (node:events:519:28):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at proceedWhenReady (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:403:3
-    at exports.Tail.go (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/lizard.js:43:16)
-    at aft (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:553:8)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:560:9
-    at callback (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/collection.js:316:13)
-    at Query.preCB (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/collection.js:298:6)
-    at Query.handleReadyForQuery (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/query.js:138:12)
-    at Client._handleReadyForQuery (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:290:19)
-    at Connection.emit (node:events:519:28):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at proceedWhenReady (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:403:3
-    at exports.Tail.go (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/lizard.js:43:16)
-    at aft (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:553:8)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:560:9
-    at callback (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/collection.js:316:13)
-    at Query.preCB (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/collection.js:298:6)
-    at Query.handleReadyForQuery (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/query.js:138:12)
-    at Client._handleReadyForQuery (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:290:19)
-    at Connection.emit (node:events:519:28):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at proceedWhenReady (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:403:3
-    at exports.Tail.go (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/lizard.js:43:16)
-    at aft (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:553:8)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:560:9
-    at callback (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/collection.js:316:13)
-    at Query.preCB (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/collection.js:298:6)
-    at Query.handleReadyForQuery (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/query.js:138:12)
-    at Client._handleReadyForQuery (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:290:19)
-    at Connection.emit (node:events:519:28):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at proceedWhenReady (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:372:27)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:403:3
-    at exports.Tail.go (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/lizard.js:43:16)
-    at aft (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:553:8)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:560:9
-    at callback (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/collection.js:316:13)
-    at Query.preCB [as callback] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/collection.js:298:6)
-    at Query.handleReadyForQuery (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/query.js:138:12)
-    at Client._handleReadyForQuery (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:290:19)
-    at Connection.emit (node:events:519:28):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of null (reading 'handleCommandComplete')
-TypeError: Cannot read properties of null (reading 'handleCommandComplete')
-    at Client._handleCommandComplete (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:360:22)
-    at Connection.emit (node:events:519:28)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:114:12
-    at Parser.parse (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:40:17)
-    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
-    at Socket.emit (node:events:519:28)
-    at addChunk (node:internal/streams/readable:559:12)
-    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-    at Readable.push (node:internal/streams/readable:390:5)
-    at TCP.onStreamRead (node:internal/stream_base_commons:191:23):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of null (reading 'handleCommandComplete')
-TypeError: Cannot read properties of null (reading 'handleCommandComplete')
-    at Client._handleCommandComplete (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:360:22)
-    at Connection.emit (node:events:519:28)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:114:12
-    at Parser.parse (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:40:17)
-    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
-    at Socket.emit (node:events:519:28)
-    at addChunk (node:internal/streams/readable:559:12)
-    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-    at Readable.push (node:internal/streams/readable:390:5)
-    at TCP.onStreamRead (node:internal/stream_base_commons:191:23):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of null (reading 'handleCommandComplete')
-TypeError: Cannot read properties of null (reading 'handleCommandComplete')
-    at Client._handleCommandComplete (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:360:22)
-    at Connection.emit (node:events:519:28)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:114:12
-    at Parser.parse (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:40:17)
-    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
-    at Socket.emit (node:events:519:28)
-    at addChunk (node:internal/streams/readable:559:12)
-    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-    at Readable.push (node:internal/streams/readable:390:5)
-    at TCP.onStreamRead (node:internal/stream_base_commons:191:23):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of null (reading 'handleCommandComplete')
-TypeError: Cannot read properties of null (reading 'handleCommandComplete')
-    at Client._handleCommandComplete (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:360:22)
-    at Connection.emit (node:events:519:28)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:114:12
-    at Parser.parse (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:40:17)
-    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
-    at Socket.emit (node:events:519:28)
-    at addChunk (node:internal/streams/readable:559:12)
-    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-    at Readable.push (node:internal/streams/readable:390:5)
-    at TCP.onStreamRead (node:internal/stream_base_commons:191:23):8506 [9/18/2024, 5:43:35 PM] ERROR: TypeError: Cannot read properties of null (reading 'handleCommandComplete')
-TypeError: Cannot read properties of null (reading 'handleCommandComplete')
-    at Client._handleCommandComplete (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:360:22)
-    at Connection.emit (node:events:519:28)
-    at /home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:114:12
-    at Parser.parse (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:40:17)
-    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
-    at Socket.emit (node:events:519:28)
-    at addChunk (node:internal/streams/readable:559:12)
-    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-    at Readable.push (node:internal/streams/readable:390:5)
-    at TCP.onStreamRead (node:internal/stream_base_commons:191:23):8506 [9/18/2024, 5:51:41 PM] ERROR: TypeError: Cannot read properties of undefined (reading 'undefined')
-TypeError: Cannot read properties of undefined (reading 'undefined')
-    at Timeout.proceedWhenReady [as _onTimeout] (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:374:27)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7):8506 [9/18/2024, 5:59:26 PM] ERROR: TypeError: Cannot read properties of undefined (reading '0')
-TypeError: Cannot read properties of undefined (reading '0')
-    at exports.submit (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:226:26)
-    at my.route.my.routeSync (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:1343:13)
-    at my.submit (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:1312:13)
-    at KKuTu.onClientMessage (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:219:11)
-    at WebSocket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:294:11)
-    at WebSocket.emit (node:events:519:28)
-    at _receiver.onmessage (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/ws/lib/WebSocket.js:143:47)
-    at Receiver.dataMessage (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/ws/lib/Receiver.js:389:14)
-    at Receiver.getData (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/ws/lib/Receiver.js:330:12)
-    at Receiver.startLoop (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/ws/lib/Receiver.js:165:16):8506 [9/18/2024, 6:04:26 PM] ERROR: TypeError: Cannot read properties of undefined (reading '0')
-TypeError: Cannot read properties of undefined (reading '0')
-    at exports.submit (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:230:26)
-    at my.route.my.routeSync (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:1343:13)
-    at my.submit (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:1312:13)
-    at KKuTu.onClientMessage (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:219:11)
-    at WebSocket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:294:11)
-    at WebSocket.emit (node:events:519:28)
-    at _receiver.onmessage (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/ws/lib/WebSocket.js:143:47)
-    at Receiver.dataMessage (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/ws/lib/Receiver.js:389:14)
-    at Receiver.getData (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/ws/lib/Receiver.js:330:12)
-    at Receiver.startLoop (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/ws/lib/Receiver.js:165:16)
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [2/28/2025, 6:14:45 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [2/28/2025, 6:14:45 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [2/28/2025, 6:15:23 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [2/28/2025, 6:15:23 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [3/4/2025, 6:25:02 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [3/4/2025, 6:25:02 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [4/5/2025, 6:32:20 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [4/5/2025, 6:32:20 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [4/29/2025, 6:38:25 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [4/29/2025, 6:38:25 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [5/20/2025, 7:36:26 PM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [5/20/2025, 7:36:26 PM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [5/20/2025, 7:48:17 PM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [5/20/2025, 7:48:17 PM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [5/20/2025, 7:48:49 PM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [5/20/2025, 7:48:49 PM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [5/22/2025, 6:44:02 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [5/22/2025, 6:44:02 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [5/30/2025, 6:09:00 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [5/30/2025, 6:09:00 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [6/11/2025, 6:11:31 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [6/11/2025, 6:11:31 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [6/20/2025, 6:31:13 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [6/20/2025, 6:31:13 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [6/30/2025, 3:25:45 PM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [9/9/2025, 6:34:03 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [9/9/2025, 6:34:03 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [9/11/2025, 6:39:11 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [9/11/2025, 6:39:11 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [9/24/2025, 6:37:39 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [9/24/2025, 6:37:39 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [9/24/2025, 6:37:54 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [9/24/2025, 6:37:54 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [10/2/2025, 6:27:07 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [10/2/2025, 6:27:07 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [11/1/2025, 6:55:56 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [11/1/2025, 6:55:56 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [12/4/2025, 6:53:44 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [12/4/2025, 6:53:44 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [1/13/2026, 6:50:52 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [1/13/2026, 6:50:52 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [1/24/2026, 6:17:28 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [1/24/2026, 6:17:28 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [1/30/2026, 6:04:27 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [1/30/2026, 6:04:27 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [2/4/2026, 6:46:53 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [2/4/2026, 6:46:53 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [2/18/2026, 6:24:52 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [2/18/2026, 6:24:52 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [2/28/2026, 6:43:47 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [2/28/2026, 6:43:47 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [3/5/2026, 6:38:02 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23):8506 [3/5/2026, 6:38:02 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21):8506 [3/5/2026, 6:38:02 AM] ERROR: Error: write EIO
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:971:11)
+    at Socket._write (node:net:983:8)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at console.value (node:internal/console/constructor:298:16)
+    at console.log (node:internal/console/constructor:384:26)
+    at callLog (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/jjlog.js:38:10):8506 [3/5/2026, 6:38:02 AM] ERROR: Error: write EIO
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:971:11)
+    at Socket._write (node:net:983:8)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at console.value (node:internal/console/constructor:298:16)
+    at console.log (node:internal/console/constructor:384:26)
+    at callLog (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/jjlog.js:38:10):8506 [3/5/2026, 6:38:02 AM] ERROR: Error: write EIO
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:971:11)
+    at Socket._write (node:net:983:8)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at console.value (node:internal/console/constructor:298:16)
+    at console.log (node:internal/console/constructor:384:26)
+    at callLog (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/jjlog.js:38:10):8506 [3/5/2026, 6:38:02 AM] ERROR: Error: write EIO
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:971:11)
+    at Socket._write (node:net:983:8)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at console.value (node:internal/console/constructor:298:16)
+    at console.log (node:internal/console/constructor:384:26)
+    at callLog (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/jjlog.js:38:10):8506 [3/5/2026, 6:38:02 AM] ERROR: Error: write EIO
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:971:11)
+    at Socket._write (node:net:983:8)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at console.value (node:internal/console/constructor:298:16)
+    at console.log (node:internal/console/constructor:384:26)
+    at callLog (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/jjlog.js:38:10):8506 [3/5/2026, 6:38:02 AM] ERROR: Error: write EIO
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:971:11)
+    at Socket._write (node:net:983:8)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at console.value (node:internal/console/constructor:298:16)
+    at console.log (node:internal/console/constructor:384:26)
+    at callLog (/root/kkutu/Hyfata-KKuTu-Latest/Server/lib/sub/jjlog.js:38:10)

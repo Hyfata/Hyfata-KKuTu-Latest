@@ -1,2 +1,2 @@
-screen -X -S kkutuG0 quit;
-screen -AmdS kkutuG0 node lib/Game/cluster.js 0 1;
+screen -X -S kkutu-G0 quit;
+screen -AmdS kkutu-G0 node lib/Game/cluster.js 0 1;

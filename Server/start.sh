@@ -1,2 +1,3 @@
-export KKT_SV_NAME="Hyfata KKuTu";
-screen -AmdS kkutuWeb node lib/Web/cluster.js 1;
+screen -X -S kkutu-Web quit;
+screen -AmdS kkutu-Web ./launch.sh
+echo "Maybe started kkutu Web and Game server";
